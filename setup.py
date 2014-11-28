@@ -20,14 +20,6 @@ def get_readme():
 
 setup(
     name='kb-shop',
-    packages=['shop', 'shop.tests', 'shop.management', 'shop.management.commands'],
-    package_data={
-        'shop': [
-            'static/*.*',
-            'templates/*.*',
-            'templates/shop/*.*',
-        ],
-    },
     version='0.1.15',
     description='shop',
     author='Patrick Kimber',
