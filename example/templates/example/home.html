@@ -1,0 +1,27 @@
+{% extends "project/base.html" %}
+{% load staticfiles %}
+
+{% block sub_title %}
+  Example app
+{% endblock sub_title %}
+
+{% block sub_heading %}
+  Example app
+{% endblock sub_heading %}
+
+{% block content %}
+  <div class="pure-g">
+    <div class="pure-u-1">
+      <div class="pure-menu pure-menu-open pure-menu-horizontal">
+        <ul>
+          <li>
+            <a href="{% url 'project.home' %}">
+              <i class="fa fa-shopping-cart"></i>
+              Home
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+{% endblock content %}
